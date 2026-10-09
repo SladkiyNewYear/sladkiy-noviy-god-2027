@@ -173,7 +173,7 @@ function addQty(id){let p=products.find(x=>x.id==id),q=getSelectedQty(id),x=cart
 function add(id){addQty(id)}
 function count(){let n=cart.reduce((s,x)=>s+x.qty,0),t=cart.reduce((s,x)=>s+x.price*x.qty,0);document.getElementById('cc').textContent=n;document.getElementById('mcc').textContent=n;document.getElementById('mcsum').textContent=n?t.toLocaleString('ru-RU')+' ₽':'Пока пуста'}
 const componentImages={
-"Добрянка вкус фундука (4уп*1кг) 4кг АККОНД": "https://akkond.ru/upload/delight.webpconverter/upload/iblock/4c1/gp3grz6dpa8p8m1wy26vrkd0c3mtm2si.png.webp?177936840226178=",
+"Добрянка вкус фундука  АККОНД": "https://akkond.ru/upload/delight.webpconverter/upload/iblock/4c1/gp3grz6dpa8p8m1wy26vrkd0c3mtm2si.png.webp?177936840226178=",
 "Трио с печеньем, карамелью и нач. со вкусом пломбира конфеты 3кг АККОНД": "https://vagonpodarkov.ru/img/sweets/trio.jpg",
 "Отломи Pralineo конфеты 3кг АККОНД": "https://vagonpodarkov.ru/img/sweets/2026/otlomi_pralineo.webp",
 "Отломи конфеты 4кг АККОНД": "https://ir.ozone.ru/s3/multimedia-4/6150092932.jpg",
