@@ -58,7 +58,50 @@ footer{background:var(--g);color:#fff;padding:35px 0}.foot{display:grid;grid-tem
  .card .muted{font-size:11px!important;line-height:1.25!important;margin:6px 0!important;min-height:27px}
  .price{font-size:18px;margin:8px 0}
  .card .btn{font-size:12px;min-height:40px;padding:8px 5px}
- .qty-row{margin-top:8px}.qty-control button{width:34px;height:34px}.qty-control input{width:40px;height:34px}
+ .qty-row{
+display;
+flex-direction;
+align-items;
+justify-content;
+gap:7px;
+margin-top:10px;
+width:100%;
+}
+.qty-row label{
+display;
+font-size:12px;
+}
+.qty-control{
+display;
+grid-template-columns(0,1fr) 54px minmax(0,1fr);
+align-items;
+width:100%;
+max-width:220px;
+margin:0 auto;
+overflow;
+border-radius:10px;
+}
+.qty-control button{
+display;
+align-items;
+justify-content;
+width:100%;
+min-width:0;
+height:42px;
+padding:0;
+font-size:24px;
+line-height:1;
+}
+.qty-control input{
+display;
+width:54px;
+min-width:0;
+max-width:54px;
+height:42px;
+padding:0;
+font-size:16px;
+text-align;
+}
  .delivery-grid{gap:20px}
  .delivery h2{font-size:29px}
  .chips{margin:14px 0;gap:7px}
